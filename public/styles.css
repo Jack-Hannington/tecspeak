@@ -64,6 +64,9 @@ footer {
       .nav-content {
           padding:10px 30px;
       }
+      .menu-content {
+          margin:20px;
+      }
   }
   
   .menu-container {
@@ -137,6 +140,7 @@ footer {
   #nav-dismiss {
     align-self: end;
     float: right;
+    margin-bottom:10px;
   }
   
   .row {
