@@ -93,7 +93,7 @@ footer {
     top: 0;
     left: 0;
     background: rgba(116, 116, 116, 0.3);
-    transition: 5s;
+    animation: fadein 0.3s;
   }
   
   .menu-items {
@@ -135,6 +135,11 @@ footer {
         padding-right: 20px;
     }
 }
+
+.menu-content-header {
+    display: flex;
+    justify-content: end;
+}
   
   .menu-content--footer {
     width: 100%;
@@ -163,12 +168,6 @@ footer {
     padding: 10px;
   }
   
-  #nav-dismiss {
-    align-self: end;
-    float: right;
-    margin-bottom:10px;
-  }
-  
   .row {
     max-width: 1200px;
     margin: auto;
@@ -183,4 +182,12 @@ footer {
     padding: 20px;
     border: 1px solid #ededed;
   }
+
+
+  /* Keyframes */
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
   
